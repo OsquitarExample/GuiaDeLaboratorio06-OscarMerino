@@ -31,7 +31,7 @@ class Alumno {
         let obsequio
         if (this.calcularPromedio() >= 17 ){
             obsequio = "Por tus buenas notas, te haz ganado una Mochila :D"   
-        } else if (this.calcularPromedio() > 12 & this.calcularPromedio() < 16 ) {
+        } else if (this.calcularPromedio() > 12 & this.calcularPromedio() <= 16 ) {
             obsequio = "Sigue asi"
         }else {
             obsequio = "Esfuerzate más la proxima vez..."
